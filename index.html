@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Calculadora de Operações Básicas</h1>
+    
+    <section>
+        <h2>Calculadora:</h2>
+        <div id="res">
+            <textarea id="rescalc" cols="29" rows="2" placeholder="Digite um Número:"></textarea>
+        </div>
+        <div id="btn">
+            <table id="tb1">
+                <tr>
+                    <td><input type="button" value="/"></td>
+                    <td><input type="button" value="*"></td>
+                    <td><input type="button" value="-"></td>
+                    <td><input type="button" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input class="numbers" type="button" value="7"></td>
+                    <td><input class="numbers" type="button" value="8"></td>
+                    <td><input class="numbers" type="button" value="9"></td>
+                    <td><input type="button" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input class="numbers" type="button" value="4"></td>
+                    <td><input class="numbers" type="button" value="5"></td>
+                    <td><input class="numbers" type="button" value="6"></td>
+                    <td><input type="button" value="C"></td>
+                </tr>
+                <tr>
+                    <td><input class="numbers" type="button" value="1"></td>
+                    <td><input class="numbers" type="button" value="2"></td>
+                    <td><input class="numbers" type="button" value="3"></td>
+                </tr>
+            </table>
+            <table id="tb2">
+                <tr>
+                    <td><input class="numbers" type="button" value="0" id="zero"></td>
+                    <td><input type="button" value="+"></td>
+                    <td><input type="button" value="=" id="igual"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CodeGuiFs</p>
+    </footer> 
+    <script src="main.js"></script>  
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+body{
+    background: rgb(73, 77, 143);
+    font: normal 15pt Times;
+}
+
+h1{
+    color:aliceblue;
+    text-align: center;
+}
+
+h2{
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+section{
+    background: rgba(245, 243, 243, 0.781);
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    text-align: -webkit-center;
+}
+
+textarea{
+    font-size: 15px;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+input{
+    width: 60px;
+    height: 60px;
+    margin-bottom: -2px;
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+}
+
+table{
+    margin-bottom: -15px;
+}
+
+
+/* -- Aparência Botões -- */
+
+#btn{
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+    width: fit-content;
+    border-radius: 5px;
+}
+
+#zero{
+    margin-top: 13px;
+    margin-left: -1px;
+    width: 125px;
+    height: 60px;
+}
+
+#igual{
+    margin-top: -50px;
+    height: 120px;
+}
+
+#virg{
+    margin-top: 13px;
+    margin-left: -1px;
+    height: 60px;
+}
+/*---- ---- ---- ---- ---- */
+
+footer{
+    color:aliceblue;
+    text-align: center;
+    font-style: italic;
+
+}
